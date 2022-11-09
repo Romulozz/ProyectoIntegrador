@@ -28,17 +28,17 @@ public class Dashboard extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jTextField1 = new javax.swing.JTextField();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
+        LupaIcono = new javax.swing.JLabel();
+        ReservaRestauranTXT = new javax.swing.JLabel();
+        NombreEmpresaTXT = new javax.swing.JLabel();
+        EstatusTXT = new javax.swing.JLabel();
+        BarraBusqueda = new javax.swing.JTextField();
+        AvionIcono = new javax.swing.JLabel();
+        AgenciaViajesTXT = new javax.swing.JLabel();
+        SalirTXT = new javax.swing.JLabel();
+        VentaPasajesTXT = new javax.swing.JLabel();
+        EnvioEncomiendaTXT = new javax.swing.JLabel();
+        PaquetesTuristicosTXT = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
@@ -58,91 +58,96 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(34, 45, 49));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setBackground(new java.awt.Color(54, 73, 80));
-        jLabel1.setFont(new java.awt.Font("Segoe UI Semilight", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_search_20px.png"))); // NOI18N
-        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 20, 30));
+        LupaIcono.setBackground(new java.awt.Color(54, 73, 80));
+        LupaIcono.setFont(new java.awt.Font("Segoe UI Semilight", 1, 18)); // NOI18N
+        LupaIcono.setForeground(new java.awt.Color(255, 255, 255));
+        LupaIcono.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        LupaIcono.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_search_20px.png"))); // NOI18N
+        jPanel2.add(LupaIcono, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 20, 30));
 
-        jLabel2.setBackground(new java.awt.Color(54, 127, 168));
-        jLabel2.setFont(new java.awt.Font("Segoe UI Semilight", 0, 14)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_restaurant_30px.png"))); // NOI18N
-        jLabel2.setText("Reservaciones a restaurantes");
-        jPanel2.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 260, 220, 30));
+        ReservaRestauranTXT.setBackground(new java.awt.Color(54, 127, 168));
+        ReservaRestauranTXT.setFont(new java.awt.Font("Segoe UI Semilight", 0, 14)); // NOI18N
+        ReservaRestauranTXT.setForeground(new java.awt.Color(255, 255, 255));
+        ReservaRestauranTXT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        ReservaRestauranTXT.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_restaurant_30px.png"))); // NOI18N
+        ReservaRestauranTXT.setText("Reservaciones a restaurantes");
+        ReservaRestauranTXT.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel2.add(ReservaRestauranTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 260, 220, 30));
 
-        jLabel3.setBackground(new java.awt.Color(54, 127, 168));
-        jLabel3.setFont(new java.awt.Font("Segoe UI Semilight", 1, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel3.setText("PurpleTeam");
-        jLabel3.setOpaque(true);
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 40));
+        NombreEmpresaTXT.setBackground(new java.awt.Color(54, 127, 168));
+        NombreEmpresaTXT.setFont(new java.awt.Font("Segoe UI Semilight", 1, 18)); // NOI18N
+        NombreEmpresaTXT.setForeground(new java.awt.Color(255, 255, 255));
+        NombreEmpresaTXT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        NombreEmpresaTXT.setText("PurpleTeam");
+        NombreEmpresaTXT.setOpaque(true);
+        jPanel2.add(NombreEmpresaTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 40));
 
-        jLabel4.setBackground(new java.awt.Color(54, 127, 168));
-        jLabel4.setFont(new java.awt.Font("Segoe UI Semilight", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 255, 0));
-        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setText("Online");
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 150, 20));
+        EstatusTXT.setBackground(new java.awt.Color(54, 127, 168));
+        EstatusTXT.setFont(new java.awt.Font("Segoe UI Semilight", 1, 12)); // NOI18N
+        EstatusTXT.setForeground(new java.awt.Color(0, 255, 0));
+        EstatusTXT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        EstatusTXT.setText("Online");
+        jPanel2.add(EstatusTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 150, 20));
 
-        jTextField1.setEditable(false);
-        jTextField1.setBackground(new java.awt.Color(54, 73, 80));
-        jTextField1.setBorder(null);
-        jPanel2.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 190, 30));
+        BarraBusqueda.setEditable(false);
+        BarraBusqueda.setBackground(new java.awt.Color(54, 73, 80));
+        BarraBusqueda.setBorder(null);
+        jPanel2.add(BarraBusqueda, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, 190, 30));
 
-        jLabel5.setBackground(new java.awt.Color(54, 127, 168));
-        jLabel5.setFont(new java.awt.Font("Segoe UI Semilight", 1, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_airplane_take_off_30px.png"))); // NOI18N
-        jPanel2.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 40, -1));
+        AvionIcono.setBackground(new java.awt.Color(54, 127, 168));
+        AvionIcono.setFont(new java.awt.Font("Segoe UI Semilight", 1, 18)); // NOI18N
+        AvionIcono.setForeground(new java.awt.Color(255, 255, 255));
+        AvionIcono.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        AvionIcono.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_airplane_take_off_30px.png"))); // NOI18N
+        jPanel2.add(AvionIcono, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 40, -1));
 
-        jLabel6.setBackground(new java.awt.Color(54, 127, 168));
-        jLabel6.setFont(new java.awt.Font("Segoe UI Semilight", 1, 12)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setText("Agencia de viajes");
-        jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 160, 20));
+        AgenciaViajesTXT.setBackground(new java.awt.Color(54, 127, 168));
+        AgenciaViajesTXT.setFont(new java.awt.Font("Segoe UI Semilight", 1, 12)); // NOI18N
+        AgenciaViajesTXT.setForeground(new java.awt.Color(255, 255, 255));
+        AgenciaViajesTXT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        AgenciaViajesTXT.setText("Agencia de viajes");
+        jPanel2.add(AgenciaViajesTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 160, 20));
 
-        jLabel7.setBackground(new java.awt.Color(54, 127, 168));
-        jLabel7.setFont(new java.awt.Font("Segoe UI Semilight", 0, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_open_door_30px.png"))); // NOI18N
-        jLabel7.setText("Salir");
-        jLabel7.addMouseListener(new java.awt.event.MouseAdapter() {
+        SalirTXT.setBackground(new java.awt.Color(54, 127, 168));
+        SalirTXT.setFont(new java.awt.Font("Segoe UI Semilight", 0, 14)); // NOI18N
+        SalirTXT.setForeground(new java.awt.Color(255, 255, 255));
+        SalirTXT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        SalirTXT.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_open_door_30px.png"))); // NOI18N
+        SalirTXT.setText("Salir");
+        SalirTXT.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        SalirTXT.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel7MouseClicked(evt);
+                SalirTXTMouseClicked(evt);
             }
         });
-        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 380, 220, 30));
+        jPanel2.add(SalirTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 380, 70, 30));
 
-        jLabel8.setBackground(new java.awt.Color(54, 127, 168));
-        jLabel8.setFont(new java.awt.Font("Segoe UI Semilight", 0, 14)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_ticket_30px.png"))); // NOI18N
-        jLabel8.setText("Venta de pasajes");
-        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 150, 30));
+        VentaPasajesTXT.setBackground(new java.awt.Color(54, 127, 168));
+        VentaPasajesTXT.setFont(new java.awt.Font("Segoe UI Semilight", 0, 14)); // NOI18N
+        VentaPasajesTXT.setForeground(new java.awt.Color(255, 255, 255));
+        VentaPasajesTXT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        VentaPasajesTXT.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_ticket_30px.png"))); // NOI18N
+        VentaPasajesTXT.setText("Venta de pasajes");
+        VentaPasajesTXT.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel2.add(VentaPasajesTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 180, 150, 30));
 
-        jLabel10.setBackground(new java.awt.Color(54, 127, 168));
-        jLabel10.setFont(new java.awt.Font("Segoe UI Semilight", 0, 14)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_delivery_30px.png"))); // NOI18N
-        jLabel10.setText("Envio de encomiendas");
-        jPanel2.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 190, 30));
+        EnvioEncomiendaTXT.setBackground(new java.awt.Color(54, 127, 168));
+        EnvioEncomiendaTXT.setFont(new java.awt.Font("Segoe UI Semilight", 0, 14)); // NOI18N
+        EnvioEncomiendaTXT.setForeground(new java.awt.Color(255, 255, 255));
+        EnvioEncomiendaTXT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        EnvioEncomiendaTXT.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_delivery_30px.png"))); // NOI18N
+        EnvioEncomiendaTXT.setText("Envio de encomiendas");
+        EnvioEncomiendaTXT.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel2.add(EnvioEncomiendaTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 300, 190, 30));
 
-        jLabel11.setBackground(new java.awt.Color(54, 127, 168));
-        jLabel11.setFont(new java.awt.Font("Segoe UI Semilight", 0, 14)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_trolley_30px.png"))); // NOI18N
-        jLabel11.setText("Paquetes turisticos");
-        jPanel2.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 220, 160, 30));
+        PaquetesTuristicosTXT.setBackground(new java.awt.Color(54, 127, 168));
+        PaquetesTuristicosTXT.setFont(new java.awt.Font("Segoe UI Semilight", 0, 14)); // NOI18N
+        PaquetesTuristicosTXT.setForeground(new java.awt.Color(255, 255, 255));
+        PaquetesTuristicosTXT.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        PaquetesTuristicosTXT.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/icons8_trolley_30px.png"))); // NOI18N
+        PaquetesTuristicosTXT.setText("Paquetes turisticos");
+        PaquetesTuristicosTXT.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        jPanel2.add(PaquetesTuristicosTXT, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 220, 160, 30));
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 550));
 
@@ -216,9 +221,9 @@ public class Dashboard extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jLabel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel7MouseClicked
+    private void SalirTXTMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_SalirTXTMouseClicked
         System.exit(0);
-    }//GEN-LAST:event_jLabel7MouseClicked
+    }//GEN-LAST:event_SalirTXTMouseClicked
 
     /**
      * @param args the command line arguments
@@ -256,20 +261,21 @@ public class Dashboard extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel AgenciaViajesTXT;
+    private javax.swing.JLabel AvionIcono;
+    private javax.swing.JTextField BarraBusqueda;
+    private javax.swing.JLabel EnvioEncomiendaTXT;
+    private javax.swing.JLabel EstatusTXT;
+    private javax.swing.JLabel LupaIcono;
+    private javax.swing.JLabel NombreEmpresaTXT;
+    private javax.swing.JLabel PaquetesTuristicosTXT;
+    private javax.swing.JLabel ReservaRestauranTXT;
+    private javax.swing.JLabel SalirTXT;
+    private javax.swing.JLabel VentaPasajesTXT;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
@@ -277,6 +283,5 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
-    private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 }
